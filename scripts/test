@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+const chalk = require('chalk')
+
+const test = () => {
+    console.log('Test', chalk.hex('#FF7D1D')('React'), chalk.hex('#EE2B2E')('Development'), chalk.hex('#8FC742')('Kit'))
+}
+
+module.exports = test
